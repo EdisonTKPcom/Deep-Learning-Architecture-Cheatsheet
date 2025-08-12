@@ -1,0 +1,17 @@
+README.md
+pyproject.toml
+src/dlx/__init__.py
+src/dlx/registry.py
+src/dlx/train.py
+src/dlx.egg-info/PKG-INFO
+src/dlx.egg-info/SOURCES.txt
+src/dlx.egg-info/dependency_links.txt
+src/dlx.egg-info/entry_points.txt
+src/dlx.egg-info/requires.txt
+src/dlx.egg-info/top_level.txt
+src/dlx/data/__init__.py
+src/dlx/data/vision/__init__.py
+src/dlx/data/vision/cifar10.py
+src/dlx/models/__init__.py
+src/dlx/models/vision/__init__.py
+src/dlx/models/vision/cnn_small.py

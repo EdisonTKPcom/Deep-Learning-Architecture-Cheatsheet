@@ -1,0 +1,61 @@
+Metadata-Version: 2.4
+Name: dlx
+Version: 0.1.0
+Summary: Modular deep learning playground with pluggable models and datasets
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: torch>=2.2
+Requires-Dist: torchvision>=0.17
+Requires-Dist: tqdm>=4.66
+
+# Deep Learning Architecture Cheatsheet 🧠
+
+A quick-start guide and example collection for five major deep learning architectures.
+
+| Architecture | Best For | Example Use Case |
+|--------------|----------|------------------|
+| **CNN** (Convolutional Neural Network) | Image & video processing | Image classification, object detection |
+| **RNN / LSTM / GRU** | Sequential data | Language modeling, speech recognition |
+| **Transformer** | Long-range dependencies in data | Chatbots, translation, summarization |
+| **GAN** (Generative Adversarial Network) | Generative tasks | Creating realistic images, deepfake videos |
+| **Autoencoder** | Dimensionality reduction & denoising | Data compression, anomaly detection |
+
+---
+
+## 📂 Folder Guide
+- `cnn/` → Vision-based models (image classification, detection)
+- `rnn_lstm_gru/` → Sequential models for text, speech, and time series
+- `transformer/` → Attention-based models for language and more
+- `gan/` → Generative models for images and videos
+- `autoencoder/` → Compression, anomaly detection, and denoising
+
+---
+
+## 🚀 Getting Started
+1. Clone the repo  
+   ```bash
+   git clone https://github.com/<your-username>/deep-learning-architecture-cheatsheet.git
+
+
+deep-learning-architecture-cheatsheet/
+├── README.md
+├── cnn/
+│   ├── README.md
+│   ├── example_image_classification.ipynb
+│   └── example_object_detection.ipynb
+├── rnn_lstm_gru/
+│   ├── README.md
+│   ├── example_language_model.ipynb
+│   └── example_speech_recognition.ipynb
+├── transformer/
+│   ├── README.md
+│   ├── example_chatbot.ipynb
+│   └── example_translation.ipynb
+├── gan/
+│   ├── README.md
+│   ├── example_image_generation.ipynb
+│   └── example_deepfake_video.ipynb
+└── autoencoder/
+    ├── README.md
+    ├── example_dim_reduction.ipynb
+    └── example_anomaly_detection.ipynb
