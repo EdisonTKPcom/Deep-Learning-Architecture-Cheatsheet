@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dlx"
+version = "0.1.0"
+description = "Modular deep learning playground with pluggable models and datasets"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+  "torch>=2.2",
+  "torchvision>=0.17",
+  "tqdm>=4.66",
+]
+
+[project.scripts]
+dlx-train = "dlx.train:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
